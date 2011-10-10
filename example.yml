@@ -1,0 +1,14 @@
+www.google.com:80:
+  /:
+    outfile: google_root
+    concurrent: 20
+    connections: 200
+localhost:4567:
+  /:
+    outfile: localhost_root
+    concurrent: 30
+    connections: 300
+  /hi:
+    outfile: localhost_hi
+    concurrent: 40
+    connections: 400
