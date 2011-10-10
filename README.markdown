@@ -1,0 +1,11 @@
+Autobench
+===================
+A simple ruby script to run Apache Bench on multiple web paths that are configured through some simple YAML syntax.
+
+Usage
+-------------------
+`ruby autobench.rb <config.yml>`
+
+Configuration
+-------------------
+See example.yml.
